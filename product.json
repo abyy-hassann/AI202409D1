@@ -1,0 +1,8 @@
+{
+    "studentId" : "1611345",
+    "studentName" : "abyyhassan",
+    "studentAge" : 21,
+    "studentNic" : true ,
+    "studentHobbies" : ["coding" , "reading"],
+    "studentAddress" : { "karachi" : "saddar", "lahore" : "saddar" }
+}

@@ -1,0 +1,34 @@
+[
+    {
+        "id" : "1",
+        "name" : "Nike3345",
+        "price" : "1400",
+        "discription" : "hello",
+        "qt/" : "15",
+        "image" : "IMG/download(1).jfif"
+    },
+    {
+        "id" : "2",
+        "name" : "jordon ",
+        "price" : "13000",
+        "discription" :"hello",
+        "image" :"IMG/download(2).jfif",
+        "qt/":"17"
+    },
+    {
+        "id" :"3",
+        "name" :"jordon367 ",
+        "price" :"14000",
+        "discription" :"hello",
+        "image" :"IMG/download.jfif",
+        "qt/" :"12"
+    },
+    {
+        "id" :"4",
+        "name" :"jordon9987 ",
+        "discription" :"hello",
+        "price": "11000",
+        "image" :"IMG/images.jfif",
+        "qt/" :"11"
+    }
+]

@@ -3,7 +3,7 @@
         "id" : "1",
         "name" : "Nike3345",
         "price" : "1400",
-        "discription" : "hello",
+        "Description" : "hello",
         "qt/" : "15",
         "image" : "img/image-2.jpg"
     },
@@ -11,24 +11,24 @@
         "id" : "2",
         "name" : "jordon ",
         "price" : "13000",
-        "discription" :"hello",
-        "image" :"img/image-3.jpg",
+        "Description" :"hello",
+        "image" :"img/image-2.jpg",
         "qt/":"17"
     },
     {
         "id" :"3",
         "name" :"jordon367 ",
         "price" :"14000",
-        "discription" :"hello",
-        "image" :"img/image-4.jpg",
+        "Description" :"hello",
+        "image" :"img/image-2.jpg",
         "qt/" :"12"
     },
     {
         "id" :"4",
         "name" :"jordon9987 ",
-        "discription" :"hello",
+        "Description" :"hello",
         "price": "11000",
-        "image" :"img/image.jpg",
+        "image" :"img/image-2.jpg",
         "qt/" :"11"
     }
 ]

@@ -8,14 +8,44 @@
 </head>
 <body>
     <div class="contatiner mt-5 pt-5">
-        <div class="row justify-content-around text-justify">
-            <div class="col-md-5">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo libero doloribus laudantium placeat eum inventore magnam voluptatibus, doloremque numquam iusto?
-            </div>
-            <div class="col-md-6">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit vero explicabo natus ducimus fuga quo architecto iste autem odio a.
-            </div>
+        <div class="row justify-content-around text-justify" id="productdetail">
+
+            
         </div>
     </div>
+    <script src="jquery/jquery-3.7.1.min.js"></script>
+    <script src="Bootstrap-library/js/bootstrap.min.js"></script>
+    <script>
+        let url =location.href; 
+        console.log(url);
+        let urlObj = new URL(url);  
+        // console.log(urlObj);
+        let productImage = urlObj.searchParams.get('pImage');
+        let productName = urlObj.searchParams.get('pName');
+        let productPrice = urlObj.searchParams.get('pPrice');
+        let productDes = urlObj.searchParams.get('pDes');
+        $("#productdetail").html(`
+            <div class="col-md-5">
+                <div class="card">
+                    <img class="card-img-top" src="`+productImage+` " alt="Title" />
+                    <div class="card-body">
+                        
+                    </div>
+                </div>   
+            </div>
+            <div class="col-md-6">
+               <div class="card">
+               
+                <div class="card-body">
+                    <h4 class="card-title">`+productName+`</h4>
+                    <p class="card-text">`+productDes+`</p>
+                    <p class="card-text">`+productPrice+`</p>
+                   
+                </div>
+               </div> 
+            </div>`
+            
+        )
+    </script>
 </body>
 </html>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="schema.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<aptech>
+    <student>
+        <id>1</id>
+        <studentName></studentName>
+        <email></email>
+    </student>
+    <student>
+        <id>1</id>
+        <studentName></studentName>
+        <email></email>
+    </student>
+    <sro>
+        <id>1</id>
+        <name></name>
+        <role></role>
+    </sro>
+</aptech>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE aptech [
+    <!ELEMENT aptech (student, SRM)>
+    <!ELEMENT student (id, name, email)>
+    <!ELEMENT SRM (id, name, salary)>
+    <!ELEMENT id (#PCDATA)>
+    <!ELEMENT name (#PCDATA)>
+    <!ELEMENT email (#PCDATA)>
+    <!ELEMENT salary (#PCDATA)>
+]>
+<aptech>
+    <student>
+        <id></id>
+        <name></name>
+        <email></email>
+    </student>
+    
+    <SRM>
+        <id></id>
+        <name></name>
+        <salary></salary>
+    </SRM>
+</aptech>
